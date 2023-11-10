@@ -1,0 +1,145 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+ 
+body {
+   font-family: sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: #093545;
+}
+ 
+ul {
+   list-style: none;
+}
+ 
+a {
+   display: inline-block;
+   text-decoration: none;
+}
+ 
+img {
+   display: inline-block;
+}
+ 
+span {
+   display: inline-block;
+}
+ 
+button {
+   cursor: pointer;
+}
+ 
+.container {
+   width: 347px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+.title{
+    width: 347px;
+    color: #FFF;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 39px;
+}
+
+.text{
+    width: 347px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 36px;
+}
+
+input{
+    margin-left: 50px;
+}
+
+.input1{
+    margin-left: 30px;
+    width: 280px;
+    padding: 13px 21px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #224957;
+    margin-bottom: 32px;
+}
+
+input::placeholder {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 20px;
+}
+
+.input2{
+    margin-left: 30px;
+    width: 280px;
+    padding: 13px 21px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #224957;
+    margin-bottom: 23px;
+}
+
+.footer-box{
+    display: flex;
+}
+
+.input3{
+    margin-right: 7px;
+    margin-left: 35px;
+    width: 18px;
+    height: 17px;
+    border-radius: 5px;
+    background-color: #224957;
+}
+
+
+.text1{
+    width: 108px;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+    margin-right: 32px;
+}
+
+.link{
+    width: 128px;
+    color: #20DF7F;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.footer-box{
+    margin-bottom: 24px;
+}
+
+.btn{
+    margin-left: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 20px;
+    text-transform: capitalize;
+    width: 280px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background: #179857;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.30);
+}
